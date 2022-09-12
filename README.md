@@ -56,7 +56,7 @@ npm i -D postcss postcss-cli postcss.parts browserslist autoprefixer postcss-pre
 
 npm i -D postcss postcss-cli browserslist autoprefixer postcss-preset-env stylelint stylelint-config-standard stylelint-config-prettier postcss-pxtorem less sass mockjs vite-plugin-html vite-plugin-mock vite-plugin-utools
 
-npm i -D postcss postcss-cli browserslist autoprefixer postcss-preset-env stylelint stylelint-config-standard stylelint-config-prettier postcss-pxtorem less sass mockjs vite-plugin-html vite-plugin-mock vite-plugin-utools @types/node utools-api-types
+npm i -D postcss postcss-cli browserslist autoprefixer postcss-preset-env stylelint stylelint-config-standard stylelint-config-prettier postcss-pxtorem less sass mockjs vite-plugin-html vite-plugin-mock vite-plugin-ejs vite-plugin-utools @types/node utools-api-types caniuse-lite
 
 npx postcss main.css -o dist.css
 npx postcss main.css -o dist.css -u autoprefixer

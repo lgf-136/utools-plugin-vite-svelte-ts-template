@@ -1,5 +1,4 @@
 const { faker } = require('@faker-js/faker');
-// import { faker } from '@faker-js/faker';
 const Mock = require('mockjs');
 const Random = Mock.Random;
 
@@ -26,7 +25,7 @@ function generateNews() {
   let news = [];
 
   let images = [1, 2, 3].map((x) =>
-    Random.image('120x60', Random.color(), Random.word(2, 6))
+    Random.image('120x60', Random.color(), Random.word(2, 6)),
   );
 
   for (let i = 1; i <= 100; i++) {

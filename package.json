@@ -11,6 +11,7 @@
     "json-mock": "json-server mock/db.json"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "@sveltejs/vite-plugin-svelte": "^1.0.5",
     "@tsconfig/svelte": "^3.0.0",
     "@types/node": "^18.7.16",

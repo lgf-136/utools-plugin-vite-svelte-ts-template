@@ -1,4 +1,4 @@
-import type { MockMethod } from 'vite-plugin-mock';
+import { MockMethod } from 'vite-plugin-mock';
 import mockjs from 'mockjs';
 
 const userList = mockjs.mock({
